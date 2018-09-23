@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/MichaelFrieze/checking-out-koa#readme",
   "dependencies": {
-    "koa": "^2.5.3"
+    "koa": "^2.5.3",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
