@@ -1,1 +1,11 @@
-<h1>Things I Love</h1>
+<h1>
+  <%- title %>
+</h1>
+
+<ul class="list-group">
+  <% thingsView.forEach(thing => { %>
+  <li class="list-group-item">
+    <%= thing %>
+  </li>
+  <% }); %>
+</ul>
