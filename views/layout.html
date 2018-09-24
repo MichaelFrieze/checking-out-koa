@@ -11,15 +11,14 @@
 </head>
 
 <body>
+  <!-- 
+  This is where we are going to add the partial. 
+  That way it isn't restricted by the container.
+  Since it is a navbar
+  -->
 
-  <!-- Here we are just going to do a container class -->
-  <!-- .container for emmet -->
+  <% include partials/_navbar.html %>
   <div class="container">
-    <!-- 
-      We want to output everything right here
-      any view that we create where we extend this layout should be output here
-      lets do it with ejs. 
-     -->
     <%- body %>
   </div>
 </body>
