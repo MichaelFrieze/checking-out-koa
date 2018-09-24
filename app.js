@@ -15,6 +15,10 @@ const things = ['My Family', 'Programming', 'Music'];
 app.use(json());
 app.use(bodyParser());
 
+// Add additional properties to context just for fun
+// Let's use this in the test to explain
+app.context.user = 'Mike';
+
 render(app, {
   root: path.join(__dirname, 'views'),
   layout: 'layout',
@@ -47,7 +51,9 @@ async function add(ctx) {
 }
 
 // Test Route
-router.get('/test', ctx => (ctx.body = 'Hello Test'));
+// Above, we added an additional property to the context: app.context.user = 'Mike';
+// Noticed we used backticks: `Hello ${ctx.user}`
+router.get('/test', ctx => (ctx.body = `Hello ${ctx.user}`));
 
 // I think this has to be here just to use the router
 app.use(router.routes()).use(router.allowedMethods());
