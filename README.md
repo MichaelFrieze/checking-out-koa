@@ -2,8 +2,6 @@
 
 I built this app to get experience working with the KOA javascript framework. I read that it was similar to Express, so I wanted to build something simple to get more experience with it.
 
-> Please don’t spam this app. I can reset it, but I hope you will be respectful and spare me the trouble.
-
 You can view the app [here](https://koa-add-things-app.herokuapp.com/).
 
 ## What is KOA?
