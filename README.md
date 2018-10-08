@@ -1,6 +1,6 @@
 ## What is the purpose of this app?
 
-I built this app to get experience working with the KOA javascript framework. I read that it was similar to Express, so I wanted to build something simple to understand it better.
+I built this app to get experience working with the KOA javascript framework. I read that it was similar to Express, so I wanted to build something simple to get more experience with it.
 
 > Please don’t spam this app. I can reset it, but I hope you will be respectful and spare me the trouble.
 
@@ -32,9 +32,9 @@ KOA provides a minimal interface for developing apps and API’s.
 
 ## Common KOA Add-on Modules
 
-- _KOA Router_ - KOA does not come with a built in router as it is very minimalistic. KOA-router is a simple routing module.
-- _KOA EJS Templating_ - Easy to use template engine to display views & layout. Of course you can use a frontend framework as well.
-- _KOA Body Parser_ - Parse incoming data.
+- **KOA Router** - KOA does not come with a built in router as it is very minimalistic. KOA-router is a simple routing module.
+- **KOA EJS Templating** - Easy to use template engine to display views & layout. Of course you can use a frontend framework as well.
+- **KOA Body Parser** - Parse incoming data.
 
 ## Overall Advantages of KOA
 
