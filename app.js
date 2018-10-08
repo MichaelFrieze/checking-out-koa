@@ -59,4 +59,5 @@ router.get('/test', ctx => (ctx.body = `Hello ${ctx.user}`));
 app.use(router.routes()).use(router.allowedMethods());
 
 // Start the Server
-app.listen(3000, () => console.log('Server Started...'));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log('Server Started...'));
